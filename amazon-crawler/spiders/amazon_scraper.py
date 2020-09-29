@@ -25,7 +25,7 @@ wsite = "https://www.amazon.in/"+id+ab
 
 
 class AmazonScraper(scrapy.Spider):
-    name = "amazon_scraper"
+    name = "amazoncrawler"
 
     # How many pages you want to scrape
     no_of_pages = 1
@@ -56,10 +56,7 @@ class AmazonScraper(scrapy.Spider):
             # break
             # print(final_url)
 
-        # print(response.body)
-        # title = response.xpath("//span[@class='a-size-medium a-color-base a-text-normal']//text()").getall()
-        # title = response.css('span').getall()
-        # print(title)
+   
         
         if(self.no_of_pages > 0):
             next_page_url = response.xpath("//ul[@class='a-pagination']/li[@class='a-last']/a").xpath("@href").get()
