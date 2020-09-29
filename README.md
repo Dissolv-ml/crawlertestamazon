@@ -2,9 +2,10 @@
 An amazon scraper that lets you enter the item you want to scrape and saves the resulting data to a CSV file.
 
 # Amazon Product Scraper
-This is an `Amazon Product Scraper` built using `scapy` module of `python`
+This is an `Amazon Crawler` built using `scapy` module of `python`
 
 # Features
+Lets you enter any product you want to datamine. 
 it scrape various things
 - Product Title
 - Product Price
@@ -26,7 +27,7 @@ sh ./run.sh
 ### Second one
 you can execute the following command
 ```bash
-scrapy crawl amazon_scraper -o ./data/data.csv or specify path
+scrapy crawl amazoncrawler -o ./data/data.csv or specify path
 ```
 
 
@@ -37,7 +38,7 @@ If csv file doesn't generate in proper format then just delete `data.csv` file .
 Now you good to go ;)
 
 # Preresuisites
-- you have to install `scrapy`
-- you have to install `pillow`
+-  install `scrapy`
+- install `pillow`
 
 
