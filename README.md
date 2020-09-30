@@ -17,6 +17,7 @@ it scrape various things
 
 
 
+
 # Execute Amazon Scraper
 there are two ways to execute scraper
 ### First one
@@ -42,3 +43,8 @@ Now you good to go ;)
 - install `pillow`
 
 
+
+# WINDOWS
+pip install scrapy
+# LINUX
+pip3 install scrapy
