@@ -1,6 +1,9 @@
 # crawlertestamazon
 An amazon data scraper for marketers that lets you enter the item you want to scrape and saves the resulting data to a CSV file.
 
+# SPIDERS
+MASTER SPIDER CODE INSIDE AMAZONCRAWLER/SPIDERS/...
+
 # Amazon Product Scraper
 This is an `Amazon Crawler` built using `scapy` module of `python`
 
